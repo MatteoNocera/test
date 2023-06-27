@@ -41,5 +41,23 @@ dentro ul/ol puoi annidare solo li come primi figli
 
 dividi sempre la pagina in macroaree (header, main, section, nav, footer)
 
+Puoi mettere il testo dell'esercizio come commento in modo da avere sempre tutto sotto mano
 
+Il sito [penpot](https://penpot.app/) mi rileva il layout
 
+# CSS
+
+E' un file con regole di stile a cascata, vale l'ultimo scritto. Può essere scritto su un file.css a parte oppure usando dentro l'indez il tag style.<br><br>
+Utilizzo # per selezionare id, utilizzo il . per selezionare la classe, utilizzo il tag per selezionarlo per intero ( body, div, section, ecc..). L'ordine di potenza è dal più forte al più debole.<br><br>
+I Font di Google vanno inseriti prima di tutto, subito dopo il title del documento html e poi vanno indicati in css, sempre con un secondo Font più "sicuro". <br>
+.element '>' h3 - seleziona tutti gli h3 figli di element
+
+h1,h2 - seleziona entrambi gli elementi<br><br>
+Cerca di inserire meno regole e dividere bene le sezioni per riutilizzare le regole CSS <br><br>
+puoi inserire su main una max-width e il margin auto per avere i testi più centrati senza avvicinarsi troppo ai margini.<br><br>
+Si può usare le righe di comando per inserire una cartella in una nuova repo su GitHub.<br><br>
+## Con :root {} possiamo annidare tutti i colori e riprenderli con var() <br><br>
+#region e #endregion per collassare le regole CSS<br><br>
+Nelle classi usa il _ invece del - per poter selezionare in un click l'intera classe.<br><br>
+Il box model sono gli spazi del tag<br><br>
+Per il border con 4 valori si parte dall'alto e si gira in senso orario, con due valori sono sopra e sotto, destra e sinistra.<br><br>
