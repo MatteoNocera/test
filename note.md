@@ -46,6 +46,8 @@ Puoi mettere il testo dell'esercizio come commento in modo da avere sempre tutto
 Il sito [penpot](https://penpot.app/) mi rileva il layout
 
 # CSS
+## Regola di reset
+## * {border: 0; margin: 0; box-sixing: border-box;}<br><br>
 
 E' un file con regole di stile a cascata, vale l'ultimo scritto. Può essere scritto su un file.css a parte oppure usando dentro l'indez il tag style.<br><br>
 Utilizzo # per selezionare id, utilizzo il . per selezionare la classe, utilizzo il tag per selezionarlo per intero ( body, div, section, ecc..). L'ordine di potenza è dal più forte al più debole.<br><br>
@@ -61,3 +63,61 @@ Si può usare le righe di comando per inserire una cartella in una nuova repo su
 Nelle classi usa il _ invece del - per poter selezionare in un click l'intera classe.<br><br>
 Il box model sono gli spazi del tag<br><br>
 Per il border con 4 valori si parte dall'alto e si gira in senso orario, con due valori sono sopra e sotto, destra e sinistra.<br><br>
+## Display specifica la visualizzazione dell'elemento. Puoi cambiare i connotati degli elementi.
+None, block, inline ed inline-block sono i maggiormente usati.<br><br>
+ ![Alt text](image.png)<br>
+ Grarda il [Riferimento](https://www.w3schools.com/cssref/pr_class_display.php)<br>
+ ## Text Align
+<br><br>
+ ## box shadow 
+ assex assey px ombreggiatura colore <br><br>
+
+## Usa sempre rem e non pixel perchè quando cambi schermo si adatta meglio ai font<br><br>
+
+# link [GitHub Fabio Pacifici](https://github.com/fabiopacifici)<br><br>
+
+# Selettori Avanzati<br><br>
+![Alt text](image-1.png)<br>
+vedi il lin ai [selettori Avanzati](https://www.w3schools.com/cssref/css_selectors.php)
+
+![Alt text](image-2.png)<br>
+[Gioco Selettori](https://flukeout.github.io/)<br><br>
+
+# Clearfix non mi fa collassare quando uso float
+Può avere valori none,  left, right, both<br>
+
+## La soluzione migliore è<br><br>
+# ::after { content:''; display: table; clear: both;}<br><br>
+
+# .clearfix::after {
+
+    content:'';
+    display: table;
+    clear: both;
+}
+
+Puoi utilizzare una classe di debug per visualizzare a schermo se tutto funziona.
+
+# Per fare repo da terminale 
+# git init - git status - git add . - git commit -m"add html" - copia e incolla i comandi creati su GitHub creando una nuova repo
+Il punto dopo add aggiunge tutto, se voglio solo un file devo togliere il punto e selezionare il file da aggiungere. <br><br>
+
+# FLEXBOX
+
+![Alt text](image-4.png)
+
+![Alt text](image-5.png)
+
+![Alt text](image-6.png)
+
+## - <mark> justify-content (container rule) agisce su main axis<br>
+## - <mark> align-items agisce (container rule) su cross axis<br>
+## - <mark> flex-wrap (container rule) specifica se gli oggetti rimangono su una riga o no e quindi si comprimino oppure vadano su un'altra linea per non rompere il layout. Se imposto su wrap non si schiacciano, di base invece è impostato su no-wrap.<br>
+## - <mark> flex-basis (item rule) imposta la dimensione legata al Main Axis<br>
+## - <mark> flex-grow (item rule) fattore di crescita impostato su 0, se è 1 può crescere. Agisce come le percentuali.<br>
+## - <mark> flex-shrink (item rule) fattore di riduzione agisce al contrario di grow.<br>
+## - <mark> flex-order (item rule) ordino gli elementi disposti sulla pagina quando si restringe lo schermo in modo differente, dò una numerazione volontaria. Accetta il -1 che verrà all'inizio della fila<br>
+
+## Consiglio per la lettura
+[CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
