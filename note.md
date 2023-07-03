@@ -119,5 +119,9 @@ Il punto dopo add aggiunge tutto, se voglio solo un file devo togliere il punto 
 ## - <mark> flex-order (item rule) ordino gli elementi disposti sulla pagina quando si restringe lo schermo in modo differente, dò una numerazione volontaria. Accetta il -1 che verrà all'inizio della fila<br>
 
 ## Consiglio per la lettura
-[CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+[CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)<br><br>
+# Struttura tabella tipo con display flex
 
+![Struttura Tipo](image-7.png)
+
+![Alt text](image-10.png)
