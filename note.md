@@ -125,3 +125,20 @@ Il punto dopo add aggiunge tutto, se voglio solo un file devo togliere il punto 
 ![Struttura Tipo](image-7.png)
 
 ![Alt text](image-10.png)
+
+# Per copiare icone di FONTAWESOME entra nella libreria, copia il link style ed incollalo nell'head di HTML. Poi entra sul sito awesome e copia il codice HTML dell'icona scelta ( trova quelle free ).
+
+# Position
+Lo uso per posizionare i singoli elementi nella pagina.
+![Position](image-11.png)
+
+## - relative : elemento posizionato relativamente alla posizione naturale e rimane nel flusso del documento.
+## - absolute : si sposta in modo assoluto in base al primo elemento genitore che ha position diversa da static e lascia lo spazio nel documento lasciandolo libero.
+## - fixed : analogo ad absolute ma il "contenitore" è sempre di riferimento al Viewport, quindi scrollando rimane visibile e ce lo portiamo dietro. <br><br>
+
+# z-index
+![z-indez](image-12.png)
+Non può avere valore static per essere utilizzata.
+Il numero più alto appare sovrapposto.
+Posso usare un numero molto elevato se l'elemento deve essere per forza davanti.
+
