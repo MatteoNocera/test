@@ -142,3 +142,9 @@ Non può avere valore static per essere utilizzata.
 Il numero più alto appare sovrapposto.
 Posso usare un numero molto elevato se l'elemento deve essere per forza davanti.
 
+# vw vh 
+![Alt text](image-13.png)
+E' la parte visibile dall'utente di una pagina web.
+![Alt text](image-14.png)
+![Alt text](image-15.png)
+![Alt text](image-16.png)
