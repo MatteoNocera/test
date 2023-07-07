@@ -148,3 +148,19 @@ E' la parte visibile dall'utente di una pagina web.
 ![Alt text](image-14.png)
 ![Alt text](image-15.png)
 ![Alt text](image-16.png)
+
+# Effetti e transizioni
+Servono per abbellire le animazioni in pagina <br>
+
+## transition 
+![transition](image-17.png)
+
+## animation
+![animation](image-18.png)
+![Alt text](image-19.png)
+## filters
+![filters](image-20.png)
+
+![Alt text](image-21.png)
+
+## Riepilogo filtri [CSS Filter](https://css-tricks.com/almanac/properties/f/filter/)
