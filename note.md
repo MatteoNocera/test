@@ -164,3 +164,21 @@ Servono per abbellire le animazioni in pagina <br>
 ![Alt text](image-21.png)
 
 ## Riepilogo filtri [CSS Filter](https://css-tricks.com/almanac/properties/f/filter/)
+
+# CSS Media Query
+
+Regole CSS Dinamiche
+
+![Alt text](image-22.png)
+
+Gli ordini di visualizzazione sono sempre dall'alto al basso. <br>
+
+Inseriamo sempre meta nell'head. <br>
+
+Di base viene preferito usare il Mobile First per facilità e per avere il CSS più senllo.
+
+![Alt text](image-23.png)
+
+Fai attenzione alle selezioni, se le selezioni sono meno forti la media queri non funziona
+
+
