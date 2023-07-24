@@ -181,4 +181,8 @@ Di base viene preferito usare il Mobile First per facilità e per avere il CSS p
 
 Fai attenzione alle selezioni, se le selezioni sono meno forti la media queri non funziona
 
-
+# Le Griglie
+Esprimiamo i contenuti dividendo lo spazio interno sempre in dodicesimi. <br>
+![Alt text](image-24.png)
+![Alt text](image-25.png)
+![Alt text](breakpoint.png)
