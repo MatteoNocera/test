@@ -194,3 +194,34 @@ Per annidare puoi inserire direttamente una .row dentro una .col.<br>
 ## Se aggiungi delle classi usa il trattino basso o un prefisso in modo da distinguerle dalle regole di Bootstrap.
 ## Il tag script va in fondo, prima della chiusura del body ed il link va subito dopo il title.
 # [GetBootStrap](https://getbootstrap.com/docs/5.3/examples/cheatsheet/)
+
+
+# JAVASCRIPT
+Prima di iniziare a programmare scriviti i vari passaggi in modo da avere sotto gli occhi le procedure da portare avanti step-by-step con uno pseudo-codice per poi ampliare il codice in ordine. <br>
+AND richiede che si verifichino entrambe le condizioni.<br>
+OR richiede che si verifichi almeno una condizione.<br>
+Javascript è un linguaggio usato principalmente per il front-end.<br>
+Il codice inline si utilizza usando il tag script e quando si usa sempre il tag script con l'attributo src.<br>
+
+![Alt text](image-26.png)
+
+## Si può scrivere nell'html con writeln
+
+## Si può scrivere con alert facendo uscire una allerta
+## Si può modificare un pezzo dell'html con la dom manipulation con innerHTML
+
+Le variabili sono contenitori che contengono dati ed informazioni richiamabili in un secondo momento.
+
+![Alt text](image-27.png)
+
+![Alt text](image-28.png)
+
+Le condizioni devono rispondere sempre con true o false.
+
+![Alt text](image-29.png)
+
+![Alt text](image-30.png)
+
+![Alt text](image-31.png)
+
+![Alt text](image-32.png)
