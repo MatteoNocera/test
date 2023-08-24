@@ -225,3 +225,17 @@ Le condizioni devono rispondere sempre con true o false.
 ![Alt text](image-31.png)
 
 ![Alt text](image-32.png)
+
+Con queryselector seleziono il primo elemento e posso richiamarlo con il suo nome (es .btn chiamo la classe btn). Usando .classList mi restituisce la lista delle classi di un elemento e posso andare a modificare le proprietà (esempio .add oppure .remove).<br>
+Con += aggiungo a ciò che già è presente (esempio .innerHTML += 'luca' aggiunge luca a ciò che era già scritto).<br>
+
+## Breve intro alle funzioni
+
+function name(params) {}
+
+Per esempio alert è una funzione
+
+![Alt text](image-33.png)
+![Alt text](image-34.png)
+
+addEventListener () dentro le parentesi vuole obbligatoriamente almeno due cose, la seconda della quale è la funzione che avviene all'evento.
