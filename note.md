@@ -238,4 +238,14 @@ Per esempio alert è una funzione
 ![Alt text](image-33.png)
 ![Alt text](image-34.png)
 
-addEventListener () dentro le parentesi vuole obbligatoriamente almeno due cose, la seconda della quale è la funzione che avviene all'evento.
+addEventListener () dentro le parentesi vuole obbligatoriamente almeno due cose, la seconda della quale è la funzione che avviene all'evento.<br>
+
+# Loops ( o Cicli)
+ovvero basta copia e incolla
+
+![Alt text](image-35.png)
+
+## 1 - Ciclo for
+![Alt text](image-36.png)
+
+![Alt text](image-37.png)
