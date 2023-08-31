@@ -251,3 +251,39 @@ ovvero basta copia e incolla
 ![Alt text](image-37.png)
 
 ![Alt text](image-39.png)
+
+![Alt text](image-40.png)
+
+![Alt text](image-41.png)
+
+![Alt text](image-42.png)
+
+![Alt text](image-43.png)
+
+# [Switch Case](https://www.w3schools.com/js/js_switch.asp)
+
+# Function
+Possiamo richiamare del codice già utilizzato per non ripetere.
+E' buona norma riutilizzare in modo da non ripetersi. Il codice risulta più pulito. Sono pezzi di codice da richiamare più volte in pagina. 
+
+![Alt text](image-44.png)
+
+Posso poi invocare la funzione ogni volta richiamandola. Nelle parentesi tonde possono esserci dei parametri.
+
+![Alt text](image-45.png)
+
+Diamo un nome espressivo alla funzione in modo che si capisca a cosa si riferisce.
+
+## I parametri da soli servono da 'segnaposto' nel senso che non hanno valore finchè non lo inseriamo noi attraverso l'invocazione della funzione.
+
+Parametro è dentro la funzione, l'argomento è quando definisco il parametro.
+
+## La parola chiave return fa terminare la funzione
+
+![Alt text](image-46.png)
+
+![Alt text](image-47.png)
+
+## Possiamo riusare la logica della funzione su un addEventListener
+
+![Alt text](image-48.png)
