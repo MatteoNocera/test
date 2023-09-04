@@ -287,3 +287,26 @@ Parametro è dentro la funzione, l'argomento è quando definisco il parametro.
 ## Possiamo riusare la logica della funzione su un addEventListener
 
 ![Alt text](image-48.png)
+
+![Alt text](image-50.png)
+
+![Alt text](image-51.png)
+
+## This è una parola chiave per recuperare l'elemento della DOM selezionato in precedenza
+
+## function declaration = function my_function_name(params) {}
+## my_function_name()
+
+oppure
+
+## const my_second_function = function() {}
+
+# [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) (immediatly invoked function expression) 
+
+## (function({ })) ();
+
+# C'è poi un metodo per scrivere le funzioni più snelle --> Arrow Functions
+
+Il this è riferito diversamente a seconda del suo posizionamento.
+
+![Alt text](image-52.png)
