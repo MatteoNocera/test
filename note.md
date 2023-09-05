@@ -310,3 +310,22 @@ oppure
 Il this è riferito diversamente a seconda del suo posizionamento.
 
 ![Alt text](image-52.png)
+
+# Timing Function
+
+Funzioni non sincrone, posso lasciarle in attesa finchè non tolgo io la "pausa".
+Evito di bloccare il programma se ci sono delle tecniche che richiedono attese di risposta.
+
+![Alt text](image-53.png)
+
+## setTimeout Eseguo il codice dopo un tot di tempo
+
+![Alt text](image-54.png)
+
+## setInterval Eseguo il codice ogni tot tempo
+
+![Alt text](image-55.png)
+
+## Per bloccare l'esecuzione
+
+![Alt text](image-56.png)
