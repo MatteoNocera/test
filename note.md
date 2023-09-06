@@ -329,3 +329,14 @@ Evito di bloccare il programma se ci sono delle tecniche che richiedono attese d
 ## Per bloccare l'esecuzione
 
 ![Alt text](image-56.png)
+
+# Objects
+
+![Alt text](image-57.png)
+
+![Alt text](image-58.png)
+
+![Alt text](image-59.png)
+
+![Alt text](image-60.png)
+
