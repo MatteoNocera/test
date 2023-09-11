@@ -340,3 +340,26 @@ Evito di bloccare il programma se ci sono delle tecniche che richiedono attese d
 
 ![Alt text](image-60.png)
 
+# For Each
+
+Per ciclare in un array
+
+## Map crea un nuovo array con return obbligatorio
+Creo una nuova mappatura
+## Filter se verifica il suo elemento crea un array e infila il nuovo elemento
+Inserisce solo i valori true, obbligatorio il return
+
+# Local storage mi permette di salvare i dati all'interno del pc dell'user.
+
+# VUE JS Framework javascript
+
+Tutto il codice è caricato su un'unica pagina in modo da essere più veloce. 
+
+![Alt text](image-61.png)
+
+![Alt text](image-62.png)
+
+![Alt text](image-63.png)
+
+![Alt text](image-64.png)
+
