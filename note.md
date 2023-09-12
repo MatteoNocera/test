@@ -363,3 +363,18 @@ Tutto il codice è caricato su un'unica pagina in modo da essere più veloce.
 
 ![Alt text](image-64.png)
 
+![Alt text](image-66.png)
+
+![Alt text](image-67.png)
+
+![Alt text](image-68.png)
+
+![Alt text](image-69.png)
+
+![Alt text](image-70.png)
+
+![Alt text](image-71.png)
+
+![Alt text](image-72.png)
+
+![Alt text](image-73.png)
