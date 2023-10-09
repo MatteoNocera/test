@@ -460,3 +460,68 @@ Ci permette di eseguire un server web locale, sul nostro pc.
 
 ![Alt text](image-97.png)
 
+![Alt text](image-98.png)
+
+![Alt text](image-99.png)
+
+![Alt text](image-100.png)
+
+![Alt text](image-101.png)
+
+![Alt text](image-102.png)
+
+![Alt text](image-103.png)
+
+![Alt text](image-104.png)
+
+![Alt text](image-105.png)
+
+![Alt text](image-107.png)
+
+![Alt text](image-108.png)
+
+![Alt text](image-109.png)
+
+![Alt text](image-110.png)
+
+# Ascoltiamo gli eventi
+
+![Alt text](image-111.png)
+
+![Alt text](image-112.png)
+
+![Alt text](image-113.png)
+
+![Alt text](image-114.png)
+
+![Alt text](image-115.png)
+
+![Alt text](image-116.png)
+
+![Alt text](image-117.png)
+
+![Alt text](image-118.png)
+
+# Per usare emit inserisco $emit sul figlio e gli dò il valore. Per richiamarlo sul componente genitore uso la @ con il nome della mia emit e come valore passo la funzione che mi serviva.
+
+# PHP 
+
+
+![Alt text](image-119.png)
+
+![Alt text](image-120.png)
+
+![Alt text](image-121.png)
+
+![Alt text](image-122.png)
+
+![Alt text](image-123.png)
+
+![Alt text](image-124.png)
+
+![Alt text](image-125.png)
+
+![Alt text](image-126.png)
+
+![Alt text](image-127.png)
+
