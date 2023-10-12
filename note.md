@@ -504,24 +504,3 @@ Ci permette di eseguire un server web locale, sul nostro pc.
 
 # Per usare emit inserisco $emit sul figlio e gli dò il valore. Per richiamarlo sul componente genitore uso la @ con il nome della mia emit e come valore passo la funzione che mi serviva.
 
-# PHP 
-
-
-![Alt text](image-119.png)
-
-![Alt text](image-120.png)
-
-![Alt text](image-121.png)
-
-![Alt text](image-122.png)
-
-![Alt text](image-123.png)
-
-![Alt text](image-124.png)
-
-![Alt text](image-125.png)
-
-![Alt text](image-126.png)
-
-![Alt text](image-127.png)
-
