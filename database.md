@@ -56,3 +56,46 @@ https://dev.mysql.com/doc/refman/8.0/en/data-types.html
 
 ![Alt text](image-201.png)
 
+![Alt text](image-202.png)
+
+# SQL
+
+![Alt text](image-203.png)
+
+![Alt text](image-204.png)
+
+# Per Windows:
+
+## C:\MAMP\bin\mysql\bin\mysql -u root -p -P 3366
+
+## Nb: il -P 3366 é opzionala meno che non hai la porta 3306 o alter settate sul db - se port é 3306 il valore é di default
+## /Applications/MAMP/Library/bin/mysql -u root -p -P 3366
+
+![Alt text](image-205.png)
+
+![Alt text](image-206.png)
+
+![Alt text](image-207.png)
+
+![Alt text](image-208.png)
+
+![Alt text](image-209.png)
+
+![Alt text](image-210.png)
+
+![Alt text](image-211.png)
+
+![Alt text](image-212.png)
+
+![Alt text](image-213.png)
+
+![Alt text](image-214.png)
+
+![Alt text](image-215.png)
+
+![Alt text](image-216.png)
+
+![Alt text](image-217.png)
+
+![Alt text](image-218.png)
+
