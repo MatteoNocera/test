@@ -100,3 +100,19 @@
 ![Alt text](image-172.png)
 
 ![Alt text](image-173.png)
+
+# ini_set('display_errors', 1);
+# error_reporting(E_ALL);
+
+# /* include __DIR__ . '/models/movie.php';
+# include __DIR__ . '/models/db.php'; */
+
+
+# define('ROOT', __DIR__);
+# define('DS', DIRECTORY_SEPARATOR);
+
+# require_once ROOT . DS . 'models' . DS . 'movie.php';
+
+# require_once ROOT . DS . 'models' . DS . 'db.php';
+
+![Alt text](image-238.png)
