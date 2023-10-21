@@ -119,23 +119,5 @@ https://dev.mysql.com/doc/refman/8.0/en/data-types.html
 
 ![Alt text](image-228.png)
 
-# OOP - Programmazione Orientata all'Oggetto
 
-![Alt text](image-229.png)
-
-![Alt text](image-230.png)
-
-![Alt text](image-231.png)
-
-![Alt text](image-232.png)
-
-![Alt text](image-233.png)
-
-![Alt text](image-234.png)
-
-![Alt text](image-235.png)
-
-![Alt text](image-236.png)
-
-![Alt text](image-237.png)
 

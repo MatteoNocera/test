@@ -116,3 +116,61 @@
 # require_once ROOT . DS . 'models' . DS . 'db.php';
 
 ![Alt text](image-238.png)
+
+# OOP - Programmazione Orientata all'Oggetto
+
+![Alt text](image-229.png)
+
+![Alt text](image-230.png)
+
+![Alt text](image-231.png)
+
+![Alt text](image-232.png)
+
+![Alt text](image-233.png)
+
+![Alt text](image-234.png)
+
+![Alt text](image-235.png)
+
+![Alt text](image-236.png)
+
+![Alt text](image-237.png)
+
+![Alt text](image-239.png)
+
+![Alt text](image-240.png)
+
+![Alt text](image-241.png)
+
+![Alt text](image-242.png)
+
+![Alt text](image-243.png)
+
+![Alt text](image-244.png)
+
+![Alt text](image-245.png)
+
+![Alt text](image-246.png)
+
+![Alt text](image-247.png)
+
+![Alt text](image-248.png)
+
+![Alt text](image-249.png)
+
+## Metodo Statico
+
+![Alt text](image-250.png)
+
+## Metodo e Variabile
+![Alt text](image-251.png)
+
+![Alt text](image-252.png)
+
+![Alt text](image-253.png)
+
+![Alt text](image-254.png)
+
+![Alt text](image-255.png)
+
