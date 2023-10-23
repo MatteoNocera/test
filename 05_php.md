@@ -174,3 +174,23 @@
 
 ![Alt text](image-255.png)
 
+# Traits
+
+![Alt text](image-256.png)
+
+![Alt text](image-257.png)
+
+![Alt text](image-258.png)
+
+![Alt text](image-259.png)
+
+![Alt text](image-260.png)
+
+![Alt text](image-261.png)
+
+![Alt text](image-262.png)
+
+![Alt text](image-263.png)
+
+![Alt text](image-264.png)
+
