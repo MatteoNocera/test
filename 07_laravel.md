@@ -41,6 +41,8 @@ Ogni framework ha degli aspetti comuni, una volta imparato Laravel avremo facili
 
 ![Alt text](image-291.png)
 
+![Alt text](image-297.png)
+
 ![Alt text](image-292.png)
 
 ![Alt text](image-293.png)
@@ -50,4 +52,35 @@ Ogni framework ha degli aspetti comuni, una volta imparato Laravel avremo facili
 ![Alt text](image-295.png)
 
 ![Alt text](image-296.png)
+
+https://laravel.com/docs/10.x/blade
+
+![Alt text](image-298.png)
+
+![Alt text](image-299.png)
+
+![Alt text](image-300.png)
+
+![Alt text](image-301.png)
+
+![Alt text](image-302.png)
+
+![Alt text](image-303.png)
+
+![Alt text](image-308.png)
+
+![Alt text](image-309.png)
+
+![Alt text](image-310.png)
+
+![Alt text](image-311.png)
+
+![Alt text](image-314.png)
+
+![Alt text](image-313.png)
+
+![Alt text](image-315.png)
+
+## Per filtrare un array
+![Alt text](image-316.png)
 
