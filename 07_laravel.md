@@ -84,3 +84,67 @@ https://laravel.com/docs/10.x/blade
 ## Per filtrare un array
 ![Alt text](image-316.png)
 
+# Laravel Model e Controller
+
+![Alt text](image-317.png)
+
+![Alt text](image-318.png)
+
+![Alt text](image-319.png)
+
+![Alt text](image-320.png)
+
+![Alt text](image-321.png)
+
+![Alt text](image-322.png)
+
+![Alt text](image-323.png)
+
+![Alt text](image-324.png)
+
+![Alt text](image-325.png)
+
+![Alt text](image-326.png)
+
+![Alt text](image-327.png)
+
+![Alt text](image-328.png)
+
+![Alt text](image-329.png)
+
+![Alt text](image-330.png)
+
+![Alt text](image-331.png)
+
+![Alt text](image-332.png)
+
+![Alt text](image-333.png)
+
+![Alt text](image-334.png)
+
+![Alt text](image-335.png)
+
+![Alt text](image-336.png)
+
+![Alt text](image-337.png)
+
+![Alt text](image-338.png)
+
+## Se all'avvio dell'applicativo Laravel si ottiene l'errore "could not find driver (SQL: select .....)" occorre effettuare questi passaggi:
+- da terminale lanciare il comando php --ini
+- identificare quale file INI è quello utilizzato dalla configurazione corrente e aprirlo in modifica
+- trovare la riga extension=pdo_mysql e decommentarla
+- salvare il file .INI e riavviare il server MAMP
+
+![Alt text](image-340.png)
+
+![Alt text](image-341.png)
+
+![Alt text](image-342.png)
+
+![Alt text](image-343.png)
+
+![Alt text](image-344.png)
+
+![Alt text](image-345.png)
+
