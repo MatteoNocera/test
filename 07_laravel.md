@@ -148,3 +148,57 @@ https://laravel.com/docs/10.x/blade
 
 ![Alt text](image-345.png)
 
+![Alt text](image-346.png)
+
+![Alt text](image-347.png)
+
+![Alt text](image-348.png)
+
+![Alt text](image-349.png)
+
+![Alt text](image-351.png)
+
+![Alt text](image-352.png)
+
+![Alt text](image-353.png)
+
+![Alt text](image-354.png)
+
+![Alt text](image-355.png)
+
+![Alt text](image-356.png)
+
+![Alt text](image-357.png)
+
+![Alt text](image-358.png)
+
+![Alt text](image-359.png)
+
+![Alt text](image-360.png)
+
+![Alt text](image-361.png)
+
+![Alt text](image-362.png)
+
+![Alt text](image-363.png)
+
+![Alt text](image-364.png)
+
+![Alt text](image-365.png)
+
+![Alt text](image-366.png)
+
+![Alt text](image-367.png)
+
+![Alt text](image-368.png)
+
+![Alt text](image-369.png)
+
+![Alt text](image-373.png)
+
+![Alt text](image-374.png)
+
+![Alt text](image-375.png)
+
+![Alt text](image-376.png)
+
