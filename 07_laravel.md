@@ -202,3 +202,49 @@ https://laravel.com/docs/10.x/blade
 
 ![Alt text](image-376.png)
 
+$train->departure_date_time = $faker->dateTimeInInterval('now', '+10 days'); <br>
+
+$train->arrival_date_time = $faker->dateTimeInInterval($train->departure_date_time, '+3 days'); <br>
+
+# Laravel CRUD
+
+![Alt text](image-377.png)
+
+![Alt text](image-378.png)
+
+![Alt text](image-379.png)
+
+![Alt text](image-380.png)
+
+![Alt text](image-381.png)
+
+![Alt text](image-382.png)
+
+![Alt text](image-383.png)
+
+# Laravel File Storage
+
+Per prima cosa cambio da local a public
+![Alt text](image-384.png)
+
+Configuro l'app e lancio php artisan storage:link
+![Alt text](image-385.png)
+
+![Alt text](image-386.png)
+
+![Alt text](image-387.png)
+
+![Alt text](image-388.png)
+
+![Alt text](image-389.png)
+
+![Alt text](image-390.png)
+
+![Alt text](image-391.png)
+
+![Alt text](image-392.png)
+
+![Alt text](image-393.png)
+
+![Alt text](image-394.png)
+
