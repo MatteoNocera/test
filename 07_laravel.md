@@ -248,3 +248,27 @@ Configuro l'app e lancio php artisan storage:link
 
 ![Alt text](image-394.png)
 
+![Alt text](image-395.png)
+
+![Alt text](image-396.png)
+
+# Validation
+
+![Alt text](image-397.png)
+
+![Alt text](image-398.png)
+
+![Alt text](image-399.png)
+
+![Alt text](image-400.png)
+
+![Alt text](image-401.png)
+
+![Alt text](image-402.png)
+
+![Alt text](image-403.png)
+
+![Alt text](image-404.png)
+
+![Alt text](image-405.png)
+
