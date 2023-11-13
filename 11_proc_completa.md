@@ -136,3 +136,131 @@ Finale
 - ![Alt text](image-458.png) ($fillable)
 
 - aggiungo la cartella guest sulle views e posso inserire la welcome page
+
+- errore sulla create
+
+![Alt text](image-465.png)
+
+![Alt text](image-466.png)
+
+![Alt text](image-467.png)
+
+![Alt text](image-468.png)
+
+![Alt text](image-469.png)
+
+![Alt text](image-470.png)
+
+![Alt text](image-471.png)
+
+## Relazione con tabelle
+
+php artisan make migration create _categories_table
+
+![Alt text](image-480.png)
+
+php artisan migrate
+
+Creo un Seeder
+
+php artisan make:seeder CategorySeeder
+
+![Alt text](image-481.png)
+
+php artisan make:model Category
+
+aggiungo un foreach sulla categories
+
+![Alt text](image-482.png)
+
+php artisan db:seed --class=CategorySeeder
+
+guardo su ti se Category::all() è stato popolato
+
+faccio una migrazione
+
+php artisan make:migration add_category_id_foreign_key_to_posts_table
+
+![Alt text](image-483.png)
+
+![Alt text](image-484.png)
+
+nel metodo down faccio l'inverso
+
+![Alt text](image-485.png)
+
+![Alt text](image-486.png)
+
+php artisan migrate
+
+in ti App/Models/Post::all()
+
+sui models:
+hasMany sul primario
+belongsTo
+
+![Alt text](image-487.png)
+
+Importo sia HasMany che BelongsTo sui modelli interessati
+
+passo con compact le categories alla view create del PostController
+
+su create.phpinserisco un form custom per inserire la category
+
+![Alt text](image-488.png)
+
+nel modello sulle fillables inserisco il category_id
+
+![Alt text](image-489.png)
+
+nello store devo validare sullo storerequest
+
+![Alt text](image-490.png)
+
+![Alt text](image-491.png)
+
+inserisco l'old
+
+![Alt text](image-492.png)
+
+sulla funzione edit passiamo la category
+
+copiamo e incolliamo il form in edit
+visualizzando anche la categoria precedente se presente
+
+![Alt text](image-493.png)
+
+sistemiamo anche sul updateRequest
+
+![Alt text](image-494.png)
+
+nella view show stampo anche la categoria
+
+![Alt text](image-495.png)
+
+![Alt text](image-496.png)
+
+![Alt text](image-498.png)
+
+![Alt text](image-499.png)
+
+![Alt text](image-500.png)
+
+![Alt text](image-501.png)
+
+## Posso limitare la registrazione bloccando e commentando via nel file delle rotte auth
+
+![Alt text](image-502.png)
+
+## aggiorno i contatori
+
+![Alt text](image-503.png)
+
+![Alt text](image-504.png)
+
+## shoh if auth
+
+![Alt text](image-505.png)
+
+![Alt text](image-506.png)
+
