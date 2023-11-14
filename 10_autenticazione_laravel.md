@@ -40,3 +40,15 @@ E' impossibile'de-hashare' una password, una volta hashata rimane sicura
 
 ![Alt text](image-464.png)
 
+![Alt text](image-507.png)
+
+![Alt text](image-508.png)
+
+![Alt text](image-509.png)
+
+![Alt text](image-510.png)
+
+![Alt text](image-511.png)
+
+![Alt text](image-512.png)
+

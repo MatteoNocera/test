@@ -173,6 +173,9 @@ aggiungo un foreach sulla categories
 
 ![Alt text](image-482.png)
 
+creo la tabella con 
+php artisan make:migration create_categories_table
+
 php artisan db:seed --class=CategorySeeder
 
 guardo su ti se Category::all() è stato popolato
@@ -264,3 +267,217 @@ nella view show stampo anche la categoria
 
 ![Alt text](image-506.png)
 
+--------------------------------------------------------
+
+- php artisan make:model Tag -ms
+- creo la tabella e inserisco nome e slug
+- sul seeder inserisco i nuovi tag
+![Alt text](image-513.png)
+
+- foreach per i tags
+new_tag = new Tag()
+new_tag->name = tag
+new_tag->slug = Str::slug(new_tag->name, '-')
+new_tag->save()
+
+![Alt text](image-514.png)
+
+- creo la tabella pivot
+
+php artisan make:migration create_post_tag_table
+
+- sulla migrazionepulisco tutto nel create e
+![Alt text](image-515.png)
+
+- sul down semplicemente cancello post-tag
+
+- passiamo table->primary([post_id, tag_id])
+
+- sul dataseeder aggiungo le call
+
+- php artisan db:seed
+
+- vado a lavorare sui modelli Tag e Post
+
+![Alt text](image-516.png)
+
+- lavoriamo con attach e detach
+
+- sul create passiamo Tag::all()
+![Alt text](image-518.png)
+- sulla pagina del create inserisco un bs5-multiselectcustom
+
+- sul nome oltre al tags aggiungo [] per far ricevere più di un valore
+
+- foreach per le options
+![Alt text](image-517.png)
+
+- aggiungo tags in store request nullable ed exists:tag,id
+
+- su store $post->tags()->attach($request->tags);   dopo il create
+
+- su show faccio vedere i tag attraverso un forelse
+![Alt text](image-521.png)
+
+- poi lavoro su edit copiando dal create
+
+- trasmetto i tags nell'edit
+
+![Alt text](image-523.png)
+![Alt text](image-524.png)
+![Alt text](image-525.png)
+- il sync va inserito nell'update 
+![Alt text](image-526.png)
+- inserisco anche nell'UpdateRequest il campo tags con exists, id
+
+- quando proviamo a cancellare prova a cancellare anche i tag assegnati, quindi prima bisogna rimuovere i vincoli
+
+- in delete creo un detach
+
+![Alt text](image-527.png)
+
+- sistemo il create
+
+![Alt text](image-528.png)
+
+## Riepilogo
+
+- create the model with migration and seeder
+- define the migration structure
+- define pivot table
+- migrate
+- create seeder
+- seed the db
+- add relationship inside the models
+
+# Relationships
+
+- create the new model with migration and seeder
+- define the migration structure
+- define the pivot table
+- migrate the tables
+- create seeder
+- seed the db
+- add relationships inside both models
+
+## create the new model with migration and seeder
+
+```bash
+php artisan make:model Tag -ms
+```
+
+## define the tags migration structure
+
+```php
+ /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('tags', function (Blueprint $table) {
+            $table->id();
+            $table->string('name', 50)->unique();
+            $table->string('slug', 50);
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('tags');
+    }
+
+```
+
+## define the pivot table
+
+create the table
+
+```bash
+php artisan make:migration create_post_tag_table
+```
+
+⚡ATTENTION: The table name must follow the convention (singular table names in alphabetical order)
+
+add columns to the pivot table
+
+```php
+ public function up(): void
+    {
+        Schema::create('post_tag', function (Blueprint $table) {
+            // $table->id();
+            $table->unsignedBigInteger('post_id');
+            $table->foreign('post_id')->references('id')->on('posts');
+
+            $table->unsignedBigInteger('tag_id');
+            $table->foreign('tag_id')->references('id')->on('tags');
+
+            // instead of the $table->id()
+            $table->primary(['post_id', 'tag_id']); 
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('post_tag');
+    }
+```
+
+## Migrate the db
+
+`php artisan migrate`
+
+## Seeder
+
+## Seed the db
+
+## Add relationships
+
+Inside the model Post
+
+```php
+
+// Post.php
+
+
+
+    /**
+     * The tags that belong to the Post
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function tags(): BelongsToMany
+    {
+        return $this->belongsToMany(Tag::class);
+    }
+
+```
+
+Inside the Tags model define the inverse of the relationship
+
+```php
+
+  /**
+     * The posts that belong to the Tag
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function posts(): BelongsToMany
+    {
+        return $this->belongsToMany(Post::class);
+    }
+```
+
+⚡ NOTE:
+If a method uses a return type you need to import that class at the top
+
+```php
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+
+```
