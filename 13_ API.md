@@ -105,3 +105,62 @@ permetto le origini da qualsiasi dominio o app, potenzialmente milioni di richie
 
 ![Alt text](image-567.png)
 php artisan db:seed --class=ProjectSeeced
+
+![Alt text](image-569.png)
+
+![Alt text](image-570.png)
+
+![Alt text](image-571.png)
+
+![Alt text](image-572.png)
+
+![Alt text](image-573.png)
+
+- creo un file router.js
+- importo {createWebHashHystory, createRouter} from "vue-router";
+- const routes = [
+    {path: '/', component: Home;}
+    {path: '/about', component: About}
+  ];
+
+- const router = createRouter({
+    history: createWebHashHistory(),
+    routes
+});
+
+- export {router}
+
+- in main.js mi - import {router} from ./router.js
+
+- .use(router prima di .mount)
+
+![Alt text](image-574.png)
+
+![Alt text](image-575.png)
+
+- Mi faccio una cartella views in src dove metto i componenti che conterranno la parte di view quando viene richiesta.
+
+- mi importo i componenti in route.js
+
+![Alt text](image-576.png)
+
+- nei componenti mi faccio la v-base
+
+- mi imposto le giuste rotte in router.js
+
+- sul nav cambio il tag a in router-link con to al posto dell'href
+
+- per un singolo post
+![Alt text](image-577.png)
+![Alt text](image-578.png)
+
+![Alt text](image-579.png)
+
+![Alt text](image-580.png)
+
+![Alt text](image-581.png)
+
+![Alt text](image-582.png)
+
+![Alt text](image-583.png)
+
